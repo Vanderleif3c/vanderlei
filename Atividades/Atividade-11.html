@@ -1,0 +1,105 @@
+<script>
+    let Pergunta1 = parseInt(prompt('Pergunta 1: \n Quem ganhou a copa do mundo de 1958? \n 1-) Uruguay  \n 2-) Italia \n 3-) França \n 4-) Brasil'))
+    r1 = 0;
+    r2 = 0;
+    r3 = 0;
+    r4 = 0;
+    r5 = 0;
+ 
+    if (Pergunta1 === 4) {
+        r1 = 1;
+    } else {
+        r1 = 0;
+    }
+ 
+ 
+   
+    let Pergunta2= parseInt(prompt('Pergunta 2: \n Quem foi o artilheiro da copa do mundo de 1998? \n 1-) Ronaldo \n 2-) Zidane \n 3-) Dida \n 4-) Yuri Alberto'))
+   
+ 
+    if (Pergunta2 === 1) {
+        r2 = 1;
+    } else {
+        r2 = 0;
+    }
+   
+   
+ 
+    let Pergunta3= parseInt(prompt('Pergunta 3: \n Quantas copa do mundo o brasil tem? \n 1-) 2 \n 2-) 6 \n 3-) 5 \n 4-) 7'))
+ 
+ 
+    if (Pergunta3 ===3) {
+        r3 = 1;
+    } else {
+        r3 = 0;
+    }
+   
+   
+ 
+   
+    let Pergunta4= parseInt(prompt('Pergunta 4: \n Quem venceu a ultima copa do mundo? \n 1-) Argentina \n 2-) França \n 3-) Brasil \n 4-) Croacia'))
+   
+ 
+    if (Pergunta4 ===1) {
+        r4 = 1;
+    } else {
+        r4 = 0;
+    }
+   
+   
+ 
+   
+    let Pergunta5= parseInt(prompt('Pergunta 5: \n Quantas copa do mundo o pelé conquistou? \n 1-) 2 \n 2-) 3 \n 3-) 5 \n 4-) 4'))
+   
+ 
+    if (Pergunta5 === 2) {
+        r5 = 1;
+    } else {
+        r5 = 0;
+    }
+    let pontos = r1 + r2 + r3 + r4 + r5;
+ 
+    document.write('<h1><u> <b>Resultado </b></u></h1>')
+    document.write('<h3> Pergunta 1: </h3>')
+    document.write('<h3> Quem ganhou a copa do mundo de 1958? </h3>')
+    document.write('<h3> Alternativa Correta: 4 </h3>')
+    document.write('<h3> Sua Resposta: ' + Pergunta1 + '</h3>')
+    document.write('<hr>')
+ 
+    document.write('<h1><u> <b>Resultado </b></u></h1>')
+    document.write('<h3> Pergunta 2: </h3>')
+    document.write('<h3> Quem foi o artilheiro da copa do mundo de 1998? </h3>')
+    document.write('<h3> Alternativa Correta: 1 </h3>')
+    document.write('<h3> Sua Resposta: ' + Pergunta2 + '</h3>')
+    document.write('<hr>')
+   
+    document.write('<h1><u> <b>Resultado </b></u></h1>')
+    document.write('<h3> Pergunta 3: </h3>')
+    document.write('<h3> Quantas copa do mundo o brasil tem? </h3>')
+    document.write('<h3> Alternativa Correta: 3 </h3>')
+    document.write('<h3> Sua Resposta: ' + Pergunta3 + '</h3>')
+    document.write('<hr>')
+ 
+    document.write('<h1><u> <b>Resultado </b></u></h1>')
+    document.write('<h3> Pergunta 4: </h3>')
+    document.write('<h3> Quem venceu a ultima copa do mundo? </h3>')
+    document.write('<h3> Alternativa Correta: 1 </h3>')
+    document.write('<h3> Sua Resposta: ' + Pergunta4 + '</h3>')
+    document.write('<hr>')
+ 
+    document.write('<h1><u> <b>Resultado </b></u></h1>')
+    document.write('<h3> Pergunta 5: </h3>')
+    document.write('<h3> Quantas copa do mundo o pelé conquistou? </h3>')
+    document.write('<h3> Alternativa Correta: 2 </h3>')
+    document.write('<h3> Sua Resposta: ' + Pergunta5 + '</h3>')
+    document.write('<hr>')
+ 
+ 
+ 
+    document.write('Pontos: ' + pontos)
+ 
+   
+ 
+ 
+ 
+</script>
