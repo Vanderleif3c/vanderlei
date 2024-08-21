@@ -44,7 +44,7 @@ footer {
 }
  
 a {
-    color: rgb(100, 30, 100);
+    color: rgb(226, 226, 223);
     text-decoration: none;
     font-weight: bold;
     padding: 5px;
@@ -52,7 +52,7 @@ a {
  
 a:hover {
     text-decoration: none;
-    color: purple;
+    color: rgb(0, 45, 128);
 }
  
 img {
